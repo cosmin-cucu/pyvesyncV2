@@ -16,7 +16,7 @@ setup(
                      Purifiers run on the VeSync app.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tv4you2016/pyvesync',
+    url='https://github.com/cosmin-cucu/pyvesyncV2',
     author='Mark Perdue, Joe Trabulsy, Tv4you2016',
     author_email='tv4you2016@gmail.com',
     license='MIT',

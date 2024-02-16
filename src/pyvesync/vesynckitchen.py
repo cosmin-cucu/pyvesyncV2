@@ -25,7 +25,7 @@ kitchen_features: dict = {
     },
     'CosoriCAF': {
         'module': 'VeSyncAirFryerCAF',
-        'models': ['CAF-P583S-KUS', 'CAF-P583S-KEU', 'CAF-P681S-KEU', 'CAF-LI401S'],
+        'models': ['CAF-P583S-KUS', 'CAF-P583S-KEU', 'CAF-P681S-KEU', 'CAF-P681S', 'CAF-P681S-KEUR', 'CAF-LI401S'],
         'features': [],
     },
 }

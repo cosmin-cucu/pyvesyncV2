@@ -555,7 +555,7 @@ class VeSyncAirFryerCAF(VeSyncBaseDevice):
     @property
     def cook_time(self) -> Optional[int]:
         """Return cook set time."""
-        return self.fryer_status.cook_time / 600
+        return self.fryer_status.cook_time
 
     @property
     def cook_status(self) -> Optional[str]:

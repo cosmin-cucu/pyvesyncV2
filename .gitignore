@@ -30,3 +30,8 @@ tools/__init__.py
 tools/vesyncdevice.py
 pyvesync.und
 .venv
+src/cosmin_cucu_pyvesyncv2.egg-info/dependency_links.txt
+src/cosmin_cucu_pyvesyncv2.egg-info/PKG-INFO
+src/cosmin_cucu_pyvesyncv2.egg-info/requires.txt
+src/cosmin_cucu_pyvesyncv2.egg-info/SOURCES.txt
+src/cosmin_cucu_pyvesyncv2.egg-info/top_level.txt

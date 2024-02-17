@@ -555,7 +555,7 @@ class VeSyncAirFryerCAF(VeSyncBaseDevice):
     @property
     def cook_time(self) -> Optional[int]:
         """Return cook set time."""
-        return self.fryer_status.cook_time
+        return self.fryer_status.cook_time / 60
 
     @property
     def cook_status(self) -> Optional[str]:
@@ -630,7 +630,7 @@ class VeSyncAirFryerCAF(VeSyncBaseDevice):
 
     def _validate_temp(self, set_temp: int) -> bool:
         """Temperature validation."""
-        if self.fryer_status.temp_unit == 'fahrenheight':
+        if self.fryer_status.temp_unit == 'fahrenheit':
             if set_temp < 200 or set_temp > 400:
                 logger.debug(
                     'Invalid temperature %s for %s', set_temp, self.device_name
@@ -1092,7 +1092,7 @@ class VeSyncAirFryer158(VeSyncBaseDevice):
 
     def _validate_temp(self, set_temp: int) -> bool:
         """Temperature validation."""
-        if self.fryer_status.temp_unit == 'fahrenheight':
+        if self.fryer_status.temp_unit == 'fahrenheit':
             if set_temp < 200 or set_temp > 400:
                 logger.debug('Invalid temperature %s for %s', set_temp, self.device_name)
                 return False

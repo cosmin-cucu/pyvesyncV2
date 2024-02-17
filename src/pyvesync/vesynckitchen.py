@@ -575,7 +575,7 @@ class VeSyncAirFryerCAF(VeSyncBaseDevice):
     @property
     def remaining_time(self) -> Optional[int]:
         """Return time remaining in minutes or None if not cooking/heating."""
-        return self.fryer_status.remaining_time
+        return self.fryer_status.remaining_time / 600
 
     def get_details(self):
         """Get Air Fryer Status and Details."""

@@ -61,7 +61,7 @@ __all__ = list(kitchen_classes)
 # API calls outside of interval are automatically refreshed
 # Set VeSyncAirFryer158.refresh_interval to 0 to refresh every call
 # Set to None or -1 to disable auto-refresh
-REFRESH_INTERVAL = 60
+REFRESH_INTERVAL = 30
 
 RECIPE_ID = 1
 RECIPE_TYPE = 3

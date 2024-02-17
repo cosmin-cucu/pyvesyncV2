@@ -65,7 +65,7 @@ REFRESH_INTERVAL = 30
 
 RECIPE_ID = 1
 RECIPE_TYPE = 3
-CUSTOM_RECIPE = 'Manual Cook'
+CUSTOM_RECIPE = 'Manual'
 COOK_MODE = 'custom'
 
 
